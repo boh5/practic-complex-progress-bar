@@ -1,10 +1,10 @@
-import Bar from "@/app/bar";
+import Card from "@/components/card";
 
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-start p-24">
             <div className="size-full p-8 bg-slate-800">
-                <Bar
+                <Card
                     percent={39}
                     colorClass="bg-blue-500"
                     borderColorClass="border-blue-500"
@@ -14,7 +14,7 @@ export default function Home() {
                     points={[{percent: 70, num: 34}, {percent: 90, num: 24}]}
                 />
                 <hr className="border-t border-gray-500 my-4"/>
-                <Bar
+                <Card
                     percent={83}
                     colorClass="bg-blue-500"
                     borderColorClass="border-blue-500"
@@ -24,7 +24,7 @@ export default function Home() {
                     points={[{percent: 70, num: 34}, {percent: 90, num: 24}]}
                 />
                 <hr className="border-t border-gray-500 my-4"/>
-                <Bar
+                <Card
                     percent={60}
                     colorClass="bg-yellow-500"
                     borderColorClass="border-yellow-500"
